@@ -1,0 +1,32 @@
+#navbar::before {
+    height: 64px;
+}
+
+.logo img {
+    width: 28px;
+    height: auto;
+}
+
+#navbar ul li {
+    margin: 15px 15px;
+  }
+
+#navbar ul {
+    font-size: 122%;
+}
+
+#home h1 {
+    font-size: 2rem;
+}
+
+#home p {
+    font-size: 1.3rem;
+  }
+
+    .contact input {
+        width: 300px;
+    }
+
+    .contact textarea {
+        width: 300px;
+      }

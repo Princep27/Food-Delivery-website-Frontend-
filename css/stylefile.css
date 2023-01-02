@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Shizuru&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*header logo */
+#navbar{
+    height:62px;
+    width:100vw;
+    position:fixed;
+    display:flex;
+    padding:10px 0px;
+}
+
+#navbar::before{
+    content:"";
+    background-color:black;
+    opacity: 0.6; 
+    height:82px;
+    width:100%; 
+    position:absolute;top:0;
+    z-index:-1;
+}
+
+.logo img{
+    width:35px;
+    height:auto;
+    margin:0px 0px 0px 30px;
+}
+
+/* navbar */
+#navbar ul{
+    list-style:none;
+    display:flex;
+    color:white;
+    font-size:140%;
+}
+
+
+#navbar ul li{
+    margin:15px 30px;
+    padding:2px;
+}
+
+#navbar ul li:hover{
+    margin:15px 30px;
+    padding:2px;
+    color:grey;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+#navbar ul a:hover{
+    border-radius:10px;
+    background-color:white;
+    color:black
+}
+
+/*body */
+/* body: home*/
+#home{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height:680px;
+    width:100vw;
+    text-align: center;
+}
+
+body::before{
+    content:"";
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:absolute;
+    min-height:664px;
+    width:100%;
+    z-index:-2;
+    opacity:0.9;
+}
+
+
+#home p{
+    display:block;
+    padding:14px;
+    color:white;
+    font-size:1.7rem;
+}
+
+#home h1{
+    font-size:3rem;
+    color:white;
+    padding:10px;
+    padding:100px 0px 0px 0px;
+}
+
+.btn{
+    padding:10px 30px;
+    border-radius:15px;
+    font-size:1.5rem;
+    margin:35px;
+    color:red;
+    font-weight:bolder; 
+    cursor:pointer;
+    opacity:0.5;
+}
+
+/*Our Servies*/
+
+.ser{
+    display:block;
+    text-align: center;
+    font-size:3rem;
+}
+.our_services{
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.services{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    width:347px;
+    padding:10px;
+    background-color:rgb(228, 222, 217);
+    border-radius:23px;
+    border:2px solid red;
+    margin:20px;
+    font-size:1.5rem;
+    text-align:center;
+}
+
+.our_services img{
+    margin:10px 0px 0px 9px;
+    width:330px;
+    height:auto;
+}
+
+.our_services h1{
+    text-align:center;
+}
+
+.contact{
+    height:500px;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.contact::before{
+    content:"";
+    background-image:url("../img/contact.jpg");
+    background-position:center;
+    background-size: cover;
+    height:500px;
+    width:100vw;
+    position:absolute;
+    opacity: 0.6;
+    z-index:-1;
+}
+
+.contact input{
+    padding:10px;
+    border-radius:10px;
+    font-size:110%;
+    opacity: 0.7;
+    width:400px;
+}
+
+.contact textarea{
+    padding:10px;
+    border-radius:10px;
+    font-size:110%;
+    opacity: 0.7;
+    width:400px;
+    height:130px;
+}
+
+.contact .c1{
+    margin:8px;
+}
+
+.contact p{
+    padding:3px 6px;
+    font-weight:bolder;
+}
+
+.contact h1{
+    margin:20px;
+    font-weight:bolder;
+}
+
+footer{
+    background-color:black;
+    color:white;
+    padding:10px;
+    height:25px;
+    text-align:center;
+    
+}
+
